@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .login-container, .home-page, .booking-page {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .user-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .user-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    text-align: center;
+  }
+  
+  .booking-form input {
+    display: block;
+    margin: 10px 0;
+    padding: 5px;
+  }
+  
+  .booking-form button {
+    padding: 10px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
